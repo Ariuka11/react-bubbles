@@ -37,6 +37,7 @@ const Login = (props) => {
           placeholder = 'Password'
           value = {credentials.password}
           onChange = {handleChange} />
+          <button>Login</button>
       </form>
     </>
   );
